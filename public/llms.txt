@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://-5185bd05.zappy5.app
+https://example.com
 צללו אל מסע רב־אמוני נדיר בלב ירושלים. סיורי עומק המחברים יהדות, נצרות ואיסלאם דרך היסטוריה, טקסים וארכיאולוגיה. חוויה רוחנית שמעוררת השראה – הצטרפו אלינו עוד היום.
 
 ### סיורים
-https://-5185bd05.zappy5.app/tours
+https://example.com/tours
 בחרו את המסלול שיפתח לכם צוהר אל נבכי הנפש של ירושלים. סיורים מודרכים בצל טקסים דתיים, חג הסיגד ומציאת הצלב, עם פרשנות מעמיקה שתשנה את נקודת מבטכם. מקומכם שמור.
 
 ### אודות
-https://-5185bd05.zappy5.app/about
+https://example.com/about
 הכירו את האנשים שהפכו תשוקה לעיר הקודש למקצוע שליחות. אנו טווים יחד ארכיאולוגיה, רוח ומחקר כדי להעניק לכם מפגש בלתי אמצעי עם מורשת האמונות. זה הזמן לגעת בשורשים.
 
 ### צור קשר
-https://-5185bd05.zappy5.app/contact
+https://example.com/contact
 מוכנים לחשוף את רבדי הקדושה של ירושלים? השאירו פרטים ונתכנן יחד סיור עומק רב־דתי המותאם לסקרנות שלכם. הצעד הראשון אל הלב של העיר העתיקה מתחיל כאן.
 
 ### תודה - אהבת ירושלים
-https://-5185bd05.zappy5.app/thank-you
+https://example.com/thank-you
 "אהבת ירושלים" - תודה - אהבת ירושלים
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-5185bd05.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-5185bd05.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-5185bd05.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-5185bd05.zappy5.app/contact
-- Endpoint: https://-5185bd05.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -85,6 +85,6 @@ Tourism & Cultural Tours
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-5185bd05.zappy5.app/sitemap.xml
-- Robots: https://-5185bd05.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-5185bd05.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
