@@ -238,7 +238,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Lato:wght@400;700&amp;display=swap">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <style>
     .skip-link { position: absolute; top: 0; left: 0; transform: translateY(-200%); padding: 12px 18px; background: var(--bg-dark, #1a1a1a); color: var(--text-light, #fff); font-weight: 600; border-radius: 0 0 8px 0; z-index: 10000; }
     .skip-link:focus { transform: none; outline: 2px solid var(--ring, #fff); outline-offset: 2px; }
@@ -355,22 +355,22 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972545570980" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site---------image-1.webp" alt אהבת ירושלים""></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/site---------image-1.webp" alt="" אהבת="" ירושלים""=""></a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/">בית</a></li><li><a href="/tours">סיורים</a></li><li><a href="/about">אודות</a></li><li class="mobile-contact-link nav-cta-mobile-item"><a href="/contact" class="nav-cta-btn">צור קשר</a></li></ul></div>
     
     
@@ -821,7 +821,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972545570980';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -864,19 +864,19 @@
       <ul class="contact-contact-details">
         <li class="contact-contact-detail-item" data-zappy-contact-field="email">
           <span class="contact-contact-icon" aria-hidden="true"><i class="fas fa-envelope"></i></span>
-          <a href="mailto:[business_email]" class="contact-contact-link">[business_email]</a>
+          <a href="mailto:Rafarsemon@gmail.com" class="contact-contact-link">Rafarsemon@gmail.com</a>
         </li>
         <li class="contact-contact-detail-item" data-zappy-contact-field="phone">
           <span class="contact-contact-icon" aria-hidden="true"><i class="fas fa-phone-alt"></i></span>
-          <a href="tel:[business_phone]" class="contact-contact-link">[business_phone]</a>
+          <a href="tel:+972545570980" class="contact-contact-link">+972545570980</a>
         </li>
         <li class="contact-contact-detail-item" data-zappy-contact-field="address">
           <span class="contact-contact-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></span>
-          <span class="contact-contact-text">[business_address]</span>
+          <span class="contact-contact-text">קורא הדורות 23, ירושלים, 9328256, ישראל</span>
         </li>
         <li class="contact-contact-detail-item" data-zappy-contact-field="address">
           <span class="contact-contact-icon" aria-hidden="true"><i class="fas fa-map"></i></span>
-          <a href="https://maps.google.com/?q=[business_address]" target="_blank" class="contact-contact-link">הצג במפה</a>
+          <a href="https://maps.google.com/?q=קורא הדורות 23, ירושלים, 9328256, ישראל" target="_blank" class="contact-contact-link">הצג במפה</a>
         </li>
       </ul>
       <!-- Social Links -->
@@ -898,11 +898,11 @@
       <form class="contact-form">
         <div class="contact-form-field">
           <label for="contact-name" class="contact-form-label">שם מלא</label>
-          <input type="text" id="contact-name" name="name" class="contact-form-input" placeholder="הכנס/י שם מלא" required>
+          <input type="text" id="contact-name" name="name" class="contact-form-input" placeholder="הכנס/י שם מלא" required="">
         </div>
         <div class="contact-form-field">
           <label for="contact-email" class="contact-form-label">דוא"ל</label>
-          <input type="email" id="contact-email" name="email" class="contact-form-input" placeholder="הכנס/י כתובת דוא&quot;ל" required>
+          <input type="email" id="contact-email" name="email" class="contact-form-input" placeholder="הכנס/י כתובת דוא&quot;ל" required="">
         </div>
         <div class="contact-form-field">
           <label for="contact-phone" class="contact-form-label">טלפון</label>
@@ -910,11 +910,11 @@
         </div>
         <div class="contact-form-field">
           <label for="contact-message" class="contact-form-label">הודעה</label>
-          <textarea id="contact-message" name="message" class="contact-form-textarea" rows="5" placeholder="כתוב/י את הודעתך כאן..." required></textarea>
+          <textarea id="contact-message" name="message" class="contact-form-textarea" rows="5" placeholder="כתוב/י את הודעתך כאן..." required=""></textarea>
         </div>
         <div class="privacy-consent">
           <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
@@ -937,9 +937,9 @@
           <img loading="eager" fetchpriority="high" data-placeholder="jerusalem-meeting-points-map" data-context="מפה אמנותית של העיר העתיקה בירושלים המציגה את שער יפו, שער שכם והרובע היהודי כנקודות מפגש מרכזיות, בסגנון איור עתיק בגווני ענבר וקרם על רקע כהה" width="600" height="400" src="/assets/site-jerusalem-meeting-points-map.webp" alt="מפת נקודות מפגש לסיורים בעיר העתיקה בירושלים" class="contact-locations-map-img">
           <div class="contact-locations-map-badge">
             <svg data-element-type="icon" data-icon-type="svg" class="contact-locations-map-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"></path>
             </svg>
-            <span>ירושלים</span>
+            <span>קורא הדורות 23, ירושלים, 9328256, ישראל</span>
           </div>
         </div>
       </div>
@@ -949,7 +949,7 @@
           <div class="contact-locations-card-header">
             <div class="contact-locations-card-icon">
               <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
             </div>
             <h3 class="contact-locations-card-title">שער יפו — נקודת מפגש מרכזית</h3>
@@ -965,9 +965,9 @@
           <div class="contact-locations-card-header">
             <div class="contact-locations-card-icon">
               <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21 10V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="17" cy="17" r="3" stroke="currentColor" stroke-width="2"/>
-                <path d="M19.5 19.5l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M21 10V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle cx="17" cy="17" r="3" stroke="currentColor" stroke-width="2"></circle>
+                <path d="M19.5 19.5l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
               </svg>
             </div>
             <h3 class="contact-locations-card-title">שער שכם — מפגש לסיורי צפון העיר</h3>
@@ -983,8 +983,8 @@
           <div class="contact-locations-card-header">
             <div class="contact-locations-card-icon">
               <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 10h18M3 14h18M3 7h18M3 17h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M8 3v18" stroke="currentColor" stroke-width="2"/>
+                <path d="M3 10h18M3 14h18M3 7h18M3 17h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M8 3v18" stroke="currentColor" stroke-width="2"></path>
               </svg>
             </div>
             <h3 class="contact-locations-card-title">הרובע היהודי — ליבה של המורשת</h3>
@@ -998,8 +998,8 @@
 
         <div class="contact-locations-note">
           <svg data-element-type="icon" data-icon-type="svg" class="contact-locations-note-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
-            <path d="M12 8v4l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M12 8v4l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
           <p class="contact-locations-note-text">אנו מקיימים סיורים גם באתרים נבחרים מחוץ לחומות — הר הזיתים, עיר דוד, גיא בן הינום, ומנזרים עתיקים בסביבת ירושלים. לפרטים על סיורים מותאמים אישית, אנא צרו קשר לתיאום מראש.</p>
         </div>
@@ -1013,8 +1013,8 @@
   <div class="footer-container">
     <div class="footer-grid">
       <div class="footer-col footer-company-col">
-        <img src="/assets/tourism-cultural-tours-logo.webp" alt="&quot;אהבת ירושלים&quot;" class="logo">
-        <p class="footer-tagline">מסע אל נשמת ירושלים – סיורי תרבות, מורשת וחוויות קדושה שלא שוכחים.</p>
+        <img src="/assets/tourism-cultural-tours-logo.webp" alt="&quot;אהבת ירושלים&quot;" class="logo" data-element-type="image" data-element-id="img-1782849445159-r1ftghm80" data-zappy-footer-image="true" >
+        
       </div>
       <div class="footer-col footer-links-col">
         <h4>ניווט מהיר</h4>
@@ -1029,31 +1029,29 @@
         <h4>צור קשר</h4>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1782849445156-2a2se9vw4" data-icon-type="fontawesome"></i></span>
+            <span class="contact-text"><a href="mailto:Rafarsemon@gmail.com">Rafarsemon@gmail.com</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1782849445156-wgbvmufvf" data-icon-type="fontawesome"></i></span>
+            <span class="contact-text"><a href="tel:+972545570980">+972545570980</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A7%D7%95%D7%A8%D7%90%20%D7%94%D7%93%D7%95%D7%A8%D7%95%D7%AA%2023%2C%20%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D%2C%209328256%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1782849445156-zyjqhgqbt" data-icon-type="fontawesome"></i></span>
+            <span class="contact-text">קורא הדורות 23, ירושלים, 9328256, ישראל</span></a></li>
         </ul>
       </div>
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
           <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1782849445156-qq2pf8s63" data-icon-type="fontawesome"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1782849445156-jd12mhfr7" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
     </div>
@@ -1071,7 +1069,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972545570980" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
